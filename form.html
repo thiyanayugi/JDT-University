@@ -1,0 +1,119 @@
+
+<html>
+<head>
+<title>Admissions</title>
+<style type="text/css">
+.form-style{
+	max-width: 500px;
+	padding: 20px 12px 10px 20px;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+.form-style-heading{
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+.form-style-heading1{
+	font-weight: bold;
+	font-style: italic;
+	
+	margin-bottom: 20px;
+	font-size: 25px;
+	padding-bottom: 3px;
+}
+.form-style label{
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.form-style label > span{
+	width: 100px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+.form-style span.required{
+	color:red;
+}
+.form-style .tel-number-field{
+	width: 40px;
+	text-align: center;
+}
+.form-style input.input-field, .form-style-2 .select-field{
+	width: 48%;	
+}
+.form-style input.input-field, 
+.form-style .tel-number-field, 
+.form-style .textarea-field, 
+ .form-style.select-field{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+.form-style.input-field:focus, 
+.form-style .tel-number-field:focus, 
+.form-style .textarea-field:focus,  
+.form-style .select-field:focus{
+	border: 1px solid #0C0;
+}
+.form-style .textarea-field{
+	height:100px;
+	width: 55%;
+}
+.form-style input[type=submit],
+.form-style input[type=button]{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	background: #FF8500;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.form-style input[type=submit]:hover,
+.form-style input[type=button]:hover{
+	background: #EA7B00;
+	color: #fff;
+}
+</style>
+<body>
+<script>
+
+</script>
+<div class="form-style">
+<div class="form-style-heading1">Online Admission System</div>
+<div class="form-style-heading">Provide your information</div>
+<form name="myForm" action="" method="post">
+<label for="field1"><span>Applicant Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" required value="" /></label>
+<label for="field2"><span>Father's Name<span class="required">*</span></span><input type="text" class="input-field" name="field2" required value="" /></label>
+<label for="field3"><span>Mother's Name<span class="required">*</span></span><input type="text" class="input-field" name="field3" required value="" /></label>
+<label for="field4"><span>Date of Birth<span class="required">*</span></span><input type="date" class="input-field" name="field4" required value="" /></label>
+<label for="field5"><span>Gender<span class="required">*</span></span>
+ <input type="radio" name="gender" value="male"> Male<br>
+ <input type="radio" name="gender" value="female"> Female<br></label>
+<label for="field6"><span>Nationality<span class="required">*</span></span><input type="text" class="input-field" name="field6" required value="" /></label>
+<label for="field7"><span>Mobile Number<span class="required">*</span></span><input type="tel" class="input-field" name="field7" required value="" /></label>
+<label for="field8"><span>Email Address<span class="required">*</span></span><input type="email" class="input-field" name="field8" required value="" /></label>
+<label for="field9"><span>10th Percentage<span class="required">*</span></span><input type="text" class="input-field" name="field9" required value="" /></label>
+<label for="field10"><span>12th Percentage<span class="required">*</span></span><input type="text" class="input-field" name="field10"  required value="" /></label>
+<label for="field11"><span>School Name<span class="required">*</span></span><input type="text" class="input-field" name="field11" required value="" /></label>
+<label for="field12"><span>Upload 12th Marksheet<span class="required">*</span></span> <input type="file" id="myFile" name="field12" required></label>
+<label><span> </span><input type="submit" value="Submit" /></label>
+</form>
+</div>
+</body>
